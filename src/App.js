@@ -3,25 +3,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+      <p>г.Липецк</p>
+      <p>Год основания 1779г.</p>
+      <p>Россия</p>
+      <img src="/lip1.jpg" alt="1" width="200" height="150"></img>
+      <img src="/lip2.jpg" alt="2" width="200" height="150" ></img>
+      <img src="/lip3.jpg" alt="3" width="200" height="150"></img>
     </div>
   );
 }
